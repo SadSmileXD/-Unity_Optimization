@@ -38,12 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -119,6 +119,734 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &7283617 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 1484950133}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &7283619
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7283617}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &30038761
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 328391740}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1 &45304771 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 262794805}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &45304773
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45304771}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &49365403
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 991029924}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1001 &52829831
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1588901209}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1001 &69941243
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.27154
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 465072206}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1001 &82176173
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.27154
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 997052681}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1001 &183281984
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1086566360}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1 &193729707 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 404358917}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &193729709
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193729707}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &236118917
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1850196970}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1 &240068287 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 1411568170}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &240068289
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240068287}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &240648615 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 1463193196}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &240648617
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240648615}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &249700635 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 2006151696}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &249700637
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249700635}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &262794805
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.27154
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 45304773}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1 &294528671 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 1520407630}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &294528673
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294528671}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &328391738 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 30038761}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &328391740
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328391738}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -248,14 +976,159 @@ MonoBehaviour:
   m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
-  m_Version: 2
   m_TaaSettings:
-    quality: 3
-    frameInfluence: 0.1
-    jitterScale: 1
-    mipBias: 0
-    varianceClampScale: 0.9
-    contrastAdaptiveSharpening: 0
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
+--- !u!1 &378609031 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 1418993546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &378609033
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378609031}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &390195506 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 719874853}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &390195508
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390195506}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &402838666 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 1898694595}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &402838668
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402838666}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &404358917
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.27154
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 193729709}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -282,14 +1155,14 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
   m_Enabled: 1
-  serializedVersion: 11
+  serializedVersion: 12
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 2
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
+  m_CookieSize2D: {x: 10, y: 10}
   m_Shadows:
     m_Type: 2
     m_Resolution: -1
@@ -336,6 +1209,9 @@ Light:
   m_ForceVisible: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
 --- !u!4 &410087041
 Transform:
   m_ObjectHideFlags: 0
@@ -363,17 +1239,1172 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Version: 3
   m_UsePipelineSettings: 1
   m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_RenderingLayers: 1
   m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_ShadowRenderingLayers: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
+  m_RenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ShadowRenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_Version: 4
+  m_LightLayerMask: 1
+  m_ShadowLayerMask: 1
+  m_RenderingLayers: 1
+  m_ShadowRenderingLayers: 1
+--- !u!1 &415636356 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 594375494}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &415636358
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 415636356}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &457447481
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.27154
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2113252667}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1 &465072204 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 69941243}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &465072206
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465072204}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &503484067
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.27154
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1594054166}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1001 &518182415
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1833913675}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1 &542993570 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 748471551}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &542993572
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542993570}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &580904555
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.27154
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 671865649}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1001 &594375494
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 415636358}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1001 &671693805
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1864121855}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1 &671865647 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 580904555}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &671865649
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 671865647}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &677511762
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.27154
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1442843926}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1001 &697458647
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.27154
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1816055363}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1001 &708931468
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.27154
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1119841013}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1001 &719874853
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 390195508}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1001 &746507421
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2038451109}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1001 &748471551
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 542993572}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1 &760949434 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 1889757392}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &760949436
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760949434}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &763230039
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.27154
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1962512428}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1001 &769288977
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1470584392}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1 &770267416 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 1507472811}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &770267418
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770267416}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &781118205 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 1390449876}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &781118207
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781118205}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &781840209
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.27154
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1230555954}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -423,6 +2454,2625 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &858856108 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 2145782254}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &858856110
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 858856108}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &882452418
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.27154
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 911512751}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1001 &904469596
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1698196199}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1 &911512749 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 882452418}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &911512751
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911512749}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &958848399
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2094368672}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1 &991029922 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 49365403}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &991029924
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991029922}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &997052679 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 82176173}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &997052681
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997052679}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1001107095 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 1935612330}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1001107097
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1001107095}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1005343144 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 1606771405}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1005343146
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005343144}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &1013170871
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.27154
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1402964819}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1001 &1068288231
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1466878650}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1 &1086566358 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 183281984}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1086566360
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086566358}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1119841011 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 708931468}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1119841013
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119841011}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1212475620 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 1827199786}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1212475622
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212475620}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1230555952 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 781840209}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1230555954
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230555952}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &1390449876
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.27154
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 781118207}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1 &1402964817 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 1013170871}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1402964819
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402964817}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &1411568170
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 240068289}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1001 &1415487327
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.27154
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1465713099}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1001 &1418993546
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 378609033}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1 &1425259049 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 2130707829}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1425259051
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425259049}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1442843924 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 677511762}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1442843926
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442843924}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &1463193196
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.27154
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 240648617}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1001 &1465291614
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.27154
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2118451538}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1 &1465713097 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 1415487327}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1465713099
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465713097}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1466878648 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 1068288231}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1466878650
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466878648}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1470584390 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 769288977}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1470584392
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470584390}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &1484950133
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.27154
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7283619}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1001 &1507472811
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.27154
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 770267418}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1001 &1520407630
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.27154
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 294528673}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1001 &1573692188
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.27154
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1613248227}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1 &1588901207 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 52829831}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1588901209
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588901207}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1594054164 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 503484067}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1594054166
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594054164}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &1606771405
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.27154
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1005343146}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1 &1613248225 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 1573692188}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1613248227
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613248225}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &1617114054
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1778294751}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1 &1679364622 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 2006601747}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1679364624
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679364622}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1698196197 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 904469596}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1698196199
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698196197}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1778294749 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 1617114054}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1778294751
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778294749}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1816055361 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 697458647}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1816055363
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816055361}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1819932520 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 2008692661}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1819932522
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819932520}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &1827199786
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.27154
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1212475622}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1 &1833913673 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 518182415}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1833913675
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833913673}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1850196968 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 236118917}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1850196970
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850196968}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1864121853 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 671693805}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1864121855
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864121853}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &1889757392
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 760949436}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1001 &1898694595
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 402838668}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1001 &1935612330
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1001107097}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1 &1962512426 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 763230039}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1962512428
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962512426}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &2006151696
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 249700637}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1001 &2006601747
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1679364624}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1001 &2007755443
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.27154
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2119119021}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1001 &2008692661
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1819932522}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1 &2038451107 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 746507421}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2038451109
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038451107}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &2094368670 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 958848399}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2094368672
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094368670}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &2113252665 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 457447481}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2113252667
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113252665}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &2118451536 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 1465291614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2118451538
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118451536}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &2119119019 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+  m_PrefabInstance: {fileID: 2007755443}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2119119021
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2119119019}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &2130707829
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.27154
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1425259051}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+--- !u!1001 &2145782254
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51722
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Name
+      value: Vanguard By T. Choonyung (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8680e3ac9e3afc44daf3809b727ad7c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1930314252456163132, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 858856110}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c3559158a2a9b541ba846154583c7da, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -430,3 +5080,54 @@ SceneRoots:
   - {fileID: 330585546}
   - {fileID: 410087041}
   - {fileID: 832575519}
+  - {fileID: 1935612330}
+  - {fileID: 748471551}
+  - {fileID: 52829831}
+  - {fileID: 2008692661}
+  - {fileID: 518182415}
+  - {fileID: 1898694595}
+  - {fileID: 1418993546}
+  - {fileID: 719874853}
+  - {fileID: 183281984}
+  - {fileID: 2006601747}
+  - {fileID: 1415487327}
+  - {fileID: 769288977}
+  - {fileID: 904469596}
+  - {fileID: 746507421}
+  - {fileID: 1617114054}
+  - {fileID: 671693805}
+  - {fileID: 236118917}
+  - {fileID: 1484950133}
+  - {fileID: 404358917}
+  - {fileID: 1520407630}
+  - {fileID: 1390449876}
+  - {fileID: 262794805}
+  - {fileID: 763230039}
+  - {fileID: 1507472811}
+  - {fileID: 69941243}
+  - {fileID: 1013170871}
+  - {fileID: 1606771405}
+  - {fileID: 580904555}
+  - {fileID: 677511762}
+  - {fileID: 1463193196}
+  - {fileID: 882452418}
+  - {fileID: 503484067}
+  - {fileID: 2130707829}
+  - {fileID: 1465291614}
+  - {fileID: 1827199786}
+  - {fileID: 781840209}
+  - {fileID: 2007755443}
+  - {fileID: 457447481}
+  - {fileID: 1411568170}
+  - {fileID: 1068288231}
+  - {fileID: 2006151696}
+  - {fileID: 2145782254}
+  - {fileID: 1889757392}
+  - {fileID: 594375494}
+  - {fileID: 49365403}
+  - {fileID: 958848399}
+  - {fileID: 30038761}
+  - {fileID: 708931468}
+  - {fileID: 697458647}
+  - {fileID: 1573692188}
+  - {fileID: 82176173}
