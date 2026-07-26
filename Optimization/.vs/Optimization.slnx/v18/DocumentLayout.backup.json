@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Unity\\-Unity_Optimization\\Optimization\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\-Unity_Optimization\\Optimization\\Assets\\Scripts\\UITest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\UITest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\unity\\-unity_optimization\\optimization\\assets\\scripts\\uitest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uitest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +22,11 @@
               "Title": "UITest.cs",
               "DocumentMoniker": "C:\\Unity\\-Unity_Optimization\\Optimization\\Assets\\Scripts\\UITest.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UITest.cs",
-              "ToolTip": "C:\\Unity\\-Unity_Optimization\\Optimization\\Assets\\Scripts\\UITest.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UITest.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAIwAoAAAARAAAAAAAAAA==",
+              "ToolTip": "C:\\Unity\\-Unity_Optimization\\Optimization\\Assets\\Scripts\\UITest.cs*",
+              "RelativeToolTip": "Assets\\Scripts\\UITest.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-26T05:19:03.626Z",
+              "WhenOpened": "2026-07-26T03:14:37.842Z",
               "EditorCaption": ""
             }
           ]
